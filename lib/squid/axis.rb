@@ -67,7 +67,7 @@ module Squid
     end
 
     def approximate(number)
-      number_to_rounded(number, significant: true, precision: 2).to_f
+      number.round(2)
     end
   end
 end
